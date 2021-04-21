@@ -1,0 +1,17 @@
+{
+  "title": "Our blog posts",
+  "items": [
+    {
+      "title": "How Much Does it Cost to Build and Manage a Data Lake?",
+      "permalink": "/blog/2020/02/03/how-much-cost"
+    },
+    {
+      "title": "A Deep Dive into Amazon Forecast",
+      "permalink": "/blog/2019/11/23/deepdive-into-amazon-forecast"
+    },
+    {
+      "title": "Effective Governance in Amorphic Platform",
+      "permalink": "/blog/2019/08/16/effective-governance-in-adp"
+    }
+  ]
+}

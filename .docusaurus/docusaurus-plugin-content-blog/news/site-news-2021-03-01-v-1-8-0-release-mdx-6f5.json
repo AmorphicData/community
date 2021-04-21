@@ -1,0 +1,28 @@
+{
+  "permalink": "/news/2021/03/01/v1.8.0-release",
+  "source": "@site/news/2021-03-01-v1.8.0-release.mdx",
+  "title": "V1.8.0 released",
+  "description": "Amorphic Data Platform (ADP) version v1.8.0 is released.",
+  "date": "2021-03-01T00:00:00.000Z",
+  "formattedDate": "February 28, 2021",
+  "tags": [
+    {
+      "label": "version release",
+      "permalink": "/news/tags/version-release"
+    },
+    {
+      "label": "v1.8.0",
+      "permalink": "/news/tags/v-1-8-0"
+    }
+  ],
+  "readingTime": 4.165,
+  "truncated": true,
+  "prevItem": {
+    "title": "V1.8.1 released",
+    "permalink": "/news/2021/04/01/v1.8.1-release"
+  },
+  "nextItem": {
+    "title": "New Release cycle",
+    "permalink": "/news/2020/08/30/release-cycle-change"
+  }
+}

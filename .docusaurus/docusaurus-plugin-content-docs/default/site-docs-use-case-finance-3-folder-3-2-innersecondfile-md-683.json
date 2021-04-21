@@ -1,0 +1,20 @@
+{
+  "unversionedId": "use-case/finance/folder/2_innersecondfile",
+  "id": "use-case/finance/folder/2_innersecondfile",
+  "isDocsHomePage": false,
+  "title": "2_innersecondfile",
+  "description": "",
+  "source": "@site/docs/use-case/finance/3-folder/3.2_innersecondfile.md",
+  "sourceDirName": "use-case/finance/3-folder",
+  "slug": "/use-case/finance/folder/2_innersecondfile",
+  "permalink": "/docs/use-case/finance/folder/2_innersecondfile",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/use-case/finance/3-folder/3.2_innersecondfile.md",
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {},
+  "sidebar": "finance",
+  "previous": {
+    "title": "1-filanem",
+    "permalink": "/docs/use-case/finance/folder/1-filanem"
+  }
+}

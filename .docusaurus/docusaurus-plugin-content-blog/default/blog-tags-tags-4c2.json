@@ -1,0 +1,44 @@
+{
+  "cost-analysis": {
+    "allTagsPath": "/blog/tags",
+    "slug": "cost-analysis",
+    "name": "cost analysis",
+    "count": 1,
+    "permalink": "/blog/tags/cost-analysis"
+  },
+  "amorphic-data-lake": {
+    "allTagsPath": "/blog/tags",
+    "slug": "amorphic-data-lake",
+    "name": "amorphic data lake",
+    "count": 1,
+    "permalink": "/blog/tags/amorphic-data-lake"
+  },
+  "cloud-data-lake": {
+    "allTagsPath": "/blog/tags",
+    "slug": "cloud-data-lake",
+    "name": "cloud data lake",
+    "count": 3,
+    "permalink": "/blog/tags/cloud-data-lake"
+  },
+  "customer-journey": {
+    "allTagsPath": "/blog/tags",
+    "slug": "customer-journey",
+    "name": "customer journey",
+    "count": 2,
+    "permalink": "/blog/tags/customer-journey"
+  },
+  "journey-analytics": {
+    "allTagsPath": "/blog/tags",
+    "slug": "journey-analytics",
+    "name": "journey analytics",
+    "count": 2,
+    "permalink": "/blog/tags/journey-analytics"
+  },
+  "c-360": {
+    "allTagsPath": "/blog/tags",
+    "slug": "c-360",
+    "name": "c360",
+    "count": 2,
+    "permalink": "/blog/tags/c-360"
+  }
+}

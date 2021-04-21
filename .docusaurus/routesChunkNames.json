@@ -1,0 +1,303 @@
+{
+  "/-deb": {
+    "component": "component---site-src-pages-index-jsc-4-f-f99",
+    "config": "config---5-e-9-4f3"
+  },
+  "/__docusaurus/debug-3d6": {
+    "component": "component---theme-debug-config-23-a-2ff"
+  },
+  "/__docusaurus/debug/config-914": {
+    "component": "component---theme-debug-config-23-a-2ff"
+  },
+  "/__docusaurus/debug/content-c28": {
+    "component": "component---theme-debug-contentba-8-ce7",
+    "allContent": "allContent---docusaurus-debug-content-246-9aa"
+  },
+  "/__docusaurus/debug/globalData-3cf": {
+    "component": "component---theme-debug-global-dataede-0fa"
+  },
+  "/__docusaurus/debug/metadata-31b": {
+    "component": "component---theme-debug-site-metadata-68-e-3d4"
+  },
+  "/__docusaurus/debug/registry-0da": {
+    "component": "component---theme-debug-registry-679-501"
+  },
+  "/__docusaurus/debug/routes-244": {
+    "component": "component---theme-debug-routes-946-699"
+  },
+  "/blog-35d": {
+    "component": "component---theme-blog-list-pagea-6-a-7ba",
+    "sidebar": "sidebar---blog-238-a15",
+    "items": [
+      {
+        "content": "content---blog-141-57e"
+      },
+      {
+        "content": "content---blog-5-e-9-ba3"
+      },
+      {
+        "content": "content---blog-316-19b"
+      },
+      {
+        "content": "content---blog-923-6ab"
+      },
+      {
+        "content": "content---blogf-4-d-01c"
+      }
+    ],
+    "metadata": "metadata---blogb-2-b-df1"
+  },
+  "/blog/2019/07/22/how-to-build-acustomer-360journey-001": {
+    "component": "component---theme-blog-post-pageccc-cab",
+    "sidebar": "sidebar---blog-238-a15",
+    "content": "content---blog-2019-07-22-how-to-build-acustomer-360-journey-13-d-b8a"
+  },
+  "/blog/2019/07/26/enhance-your-digitization-strategy-using-ml-dc7": {
+    "component": "component---theme-blog-post-pageccc-cab",
+    "sidebar": "sidebar---blog-238-a15",
+    "content": "content---blog-2019-07-26-enhance-your-digitization-strategy-using-ml-23-f-275"
+  },
+  "/blog/2019/08/16/effective-governance-in-adp-bd7": {
+    "component": "component---theme-blog-post-pageccc-cab",
+    "sidebar": "sidebar---blog-238-a15",
+    "content": "content---blog-2019-08-16-effective-governance-in-adp-544-006"
+  },
+  "/blog/2019/08/16/how-could-dl-handle-storage-and-compute-decoupling-bcf": {
+    "component": "component---theme-blog-post-pageccc-cab",
+    "sidebar": "sidebar---blog-238-a15",
+    "content": "content---blog-2019-08-16-how-could-dl-handle-storage-and-compute-decoupling-14-f-c2b"
+  },
+  "/blog/2019/11/23/deepdive-into-amazon-forecast-1ed": {
+    "component": "component---theme-blog-post-pageccc-cab",
+    "sidebar": "sidebar---blog-238-a15",
+    "content": "content---blog-2019-11-23-deepdive-into-amazon-forecast-947-e4f"
+  },
+  "/blog/2020/02/03/how-much-cost-b97": {
+    "component": "component---theme-blog-post-pageccc-cab",
+    "sidebar": "sidebar---blog-238-a15",
+    "content": "content---blog-2020-02-03-how-much-cost-9-cf-692"
+  },
+  "/blog/page/2-5d6": {
+    "component": "component---theme-blog-list-pagea-6-a-7ba",
+    "sidebar": "sidebar---blog-238-a15",
+    "items": [
+      {
+        "content": "content---blog-720-64f"
+      }
+    ],
+    "metadata": "metadata---blog-page-28-eb-625"
+  },
+  "/blog/tags-690": {
+    "component": "component---theme-blog-tags-list-page-01-a-d0b",
+    "sidebar": "sidebar---blog-238-a15",
+    "tags": "tags---blog-tagsa-70-da2"
+  },
+  "/blog/tags/amorphic-data-lake-127": {
+    "component": "component---theme-blog-tags-posts-page-687-b6c",
+    "sidebar": "sidebar---blog-238-a15",
+    "items": [
+      {
+        "content": "content---blog-141-57e"
+      }
+    ],
+    "metadata": "metadata---blog-tags-amorphic-data-lake-4-b-0-e82"
+  },
+  "/blog/tags/c-360-e77": {
+    "component": "component---theme-blog-tags-posts-page-687-b6c",
+    "sidebar": "sidebar---blog-238-a15",
+    "items": [
+      {
+        "content": "content---blogf-4-d-01c"
+      },
+      {
+        "content": "content---blog-720-64f"
+      }
+    ],
+    "metadata": "metadata---blog-tags-c-360-e-9-f-a68"
+  },
+  "/blog/tags/cloud-data-lake-af0": {
+    "component": "component---theme-blog-tags-posts-page-687-b6c",
+    "sidebar": "sidebar---blog-238-a15",
+    "items": [
+      {
+        "content": "content---blog-5-e-9-ba3"
+      },
+      {
+        "content": "content---blog-316-19b"
+      },
+      {
+        "content": "content---blog-923-6ab"
+      }
+    ],
+    "metadata": "metadata---blog-tags-cloud-data-lake-454-625"
+  },
+  "/blog/tags/cost-analysis-993": {
+    "component": "component---theme-blog-tags-posts-page-687-b6c",
+    "sidebar": "sidebar---blog-238-a15",
+    "items": [
+      {
+        "content": "content---blog-141-57e"
+      }
+    ],
+    "metadata": "metadata---blog-tags-cost-analysise-58-34d"
+  },
+  "/blog/tags/customer-journey-5c4": {
+    "component": "component---theme-blog-tags-posts-page-687-b6c",
+    "sidebar": "sidebar---blog-238-a15",
+    "items": [
+      {
+        "content": "content---blogf-4-d-01c"
+      },
+      {
+        "content": "content---blog-720-64f"
+      }
+    ],
+    "metadata": "metadata---blog-tags-customer-journeyba-2-14d"
+  },
+  "/blog/tags/journey-analytics-cc3": {
+    "component": "component---theme-blog-tags-posts-page-687-b6c",
+    "sidebar": "sidebar---blog-238-a15",
+    "items": [
+      {
+        "content": "content---blogf-4-d-01c"
+      },
+      {
+        "content": "content---blog-720-64f"
+      }
+    ],
+    "metadata": "metadata---blog-tags-journey-analyticsd-96-11e"
+  },
+  "/markdown-page-be1": {
+    "component": "component---theme-mdx-page-1-f-3-b90",
+    "content": "content---markdown-page-393-028"
+  },
+  "/news-36b": {
+    "component": "component---theme-blog-list-pagea-6-a-7ba",
+    "sidebar": "sidebar---news-15-d-ec4",
+    "items": [
+      {
+        "content": "content---newsea-8-aa0"
+      },
+      {
+        "content": "content---newsd-38-2d0"
+      },
+      {
+        "content": "content---newsf-6-a-455"
+      },
+      {
+        "content": "content---news-507-ff9"
+      }
+    ],
+    "metadata": "metadata---news-36-f-2fe"
+  },
+  "/news/2020/08/30/release-cycle-change-41e": {
+    "component": "component---theme-blog-post-pageccc-cab",
+    "sidebar": "sidebar---news-15-d-ec4",
+    "content": "content---news-2020-08-30-release-cycle-changed-65-f92"
+  },
+  "/news/2021/03/01/v1.8.0-release-d15": {
+    "component": "component---theme-blog-post-pageccc-cab",
+    "sidebar": "sidebar---news-15-d-ec4",
+    "content": "content---news-2021-03-01-v-1-8-0-release-6-f-5-558"
+  },
+  "/news/2021/04/01/v1.8.1-release-6fa": {
+    "component": "component---theme-blog-post-pageccc-cab",
+    "sidebar": "sidebar---news-15-d-ec4",
+    "content": "content---news-2021-04-01-v-1-8-1-releasea-42-c76"
+  },
+  "/news/tags-713": {
+    "component": "component---theme-blog-tags-list-page-01-a-d0b",
+    "sidebar": "sidebar---news-15-d-ec4",
+    "tags": "tags---news-tags-6-af-64f"
+  },
+  "/news/tags/amorphic-community-6ed": {
+    "component": "component---theme-blog-tags-posts-page-687-b6c",
+    "sidebar": "sidebar---news-15-d-ec4",
+    "items": [
+      {
+        "content": "content---news-507-ff9"
+      }
+    ],
+    "metadata": "metadata---news-tags-amorphic-communitydc-9-124"
+  },
+  "/news/tags/new-release-cycle-816": {
+    "component": "component---theme-blog-tags-posts-page-687-b6c",
+    "sidebar": "sidebar---news-15-d-ec4",
+    "items": [
+      {
+        "content": "content---newsf-6-a-455"
+      }
+    ],
+    "metadata": "metadata---news-tags-new-release-cycle-54-c-397"
+  },
+  "/news/tags/update-c9e": {
+    "component": "component---theme-blog-tags-posts-page-687-b6c",
+    "sidebar": "sidebar---news-15-d-ec4",
+    "items": [
+      {
+        "content": "content---newsf-6-a-455"
+      }
+    ],
+    "metadata": "metadata---news-tags-update-814-e3a"
+  },
+  "/news/tags/v-1-8-0-bf0": {
+    "component": "component---theme-blog-tags-posts-page-687-b6c",
+    "sidebar": "sidebar---news-15-d-ec4",
+    "items": [
+      {
+        "content": "content---newsd-38-2d0"
+      }
+    ],
+    "metadata": "metadata---news-tags-v-1-8-07-eb-06f"
+  },
+  "/news/tags/v-1-8-1-3c1": {
+    "component": "component---theme-blog-tags-posts-page-687-b6c",
+    "sidebar": "sidebar---news-15-d-ec4",
+    "items": [
+      {
+        "content": "content---newsea-8-aa0"
+      }
+    ],
+    "metadata": "metadata---news-tags-v-1-8-1-f-40-51e"
+  },
+  "/news/tags/version-release-4c7": {
+    "component": "component---theme-blog-tags-posts-page-687-b6c",
+    "sidebar": "sidebar---news-15-d-ec4",
+    "items": [
+      {
+        "content": "content---newsea-8-aa0"
+      },
+      {
+        "content": "content---newsd-38-2d0"
+      }
+    ],
+    "metadata": "metadata---news-tags-version-releasea-8-b-df4"
+  },
+  "/news/tags/welcome-a6d": {
+    "component": "component---theme-blog-tags-posts-page-687-b6c",
+    "sidebar": "sidebar---news-15-d-ec4",
+    "items": [
+      {
+        "content": "content---news-507-ff9"
+      }
+    ],
+    "metadata": "metadata---news-tags-welcome-952-1f9"
+  },
+  "/news/welcome-13e": {
+    "component": "component---theme-blog-post-pageccc-cab",
+    "sidebar": "sidebar---news-15-d-ec4",
+    "content": "content---news-welcome-177-c95"
+  },
+  "/team/-f38": {
+    "component": "component---site-src-pages-team-index-jsf-5-d-54e",
+    "config": "config---5-e-9-4f3"
+  },
+  "/docs-93b": {
+    "component": "component---theme-doc-page-1-be-9be",
+    "versionMetadata": "versionMetadata---docs-935-398"
+  },
+  "/docs/intro-e84": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-intro-0-e-3-be1"
+  }
+}

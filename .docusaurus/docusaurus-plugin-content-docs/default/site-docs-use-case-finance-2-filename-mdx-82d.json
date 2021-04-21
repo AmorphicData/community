@@ -1,0 +1,20 @@
+{
+  "unversionedId": "use-case/finance/filename",
+  "id": "use-case/finance/filename",
+  "isDocsHomePage": false,
+  "title": "filename",
+  "description": "",
+  "source": "@site/docs/use-case/finance/2_filename.mdx",
+  "sourceDirName": "use-case/finance",
+  "slug": "/use-case/finance/filename",
+  "permalink": "/docs/use-case/finance/filename",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/use-case/finance/2_filename.mdx",
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {},
+  "sidebar": "finance",
+  "next": {
+    "title": "Tutorial Intro",
+    "permalink": "/docs/use-case/finance/intro"
+  }
+}

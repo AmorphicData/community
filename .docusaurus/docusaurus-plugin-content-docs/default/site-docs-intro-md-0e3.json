@@ -1,0 +1,17 @@
+{
+  "unversionedId": "intro",
+  "id": "intro",
+  "isDocsHomePage": false,
+  "title": "Tutorial Intro",
+  "description": "Let's discover Docusaurus in less than 5 minutes.",
+  "source": "@site/docs/intro.md",
+  "sourceDirName": ".",
+  "slug": "/intro",
+  "permalink": "/docs/intro",
+  "version": "current",
+  "frontMatter": {
+    "title": "Tutorial Intro",
+    "author": "Susheel"
+  },
+  "sidebar": "dashboard"
+}

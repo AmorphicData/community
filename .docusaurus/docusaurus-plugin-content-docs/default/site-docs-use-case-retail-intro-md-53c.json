@@ -1,0 +1,22 @@
+{
+  "unversionedId": "use-case/retail/intro",
+  "id": "use-case/retail/intro",
+  "isDocsHomePage": false,
+  "title": "Tutorial Intro",
+  "description": "Let's discover Docusaurus in less than 5 minutes.",
+  "source": "@site/docs/use-case/retail/intro.md",
+  "sourceDirName": "use-case/retail",
+  "slug": "/use-case/retail/intro",
+  "permalink": "/docs/use-case/retail/intro",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/use-case/retail/intro.md",
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "retail",
+  "next": {
+    "title": "Other Files",
+    "permalink": "/docs/use-case/retail/it_otherfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "permalink": "/news/welcome",
+  "source": "@site/news/2021-04-20-hola.md",
+  "title": "Welcome to Amorphic Community",
+  "description": "Hello & welcome to Amorphic Community community a place to check latest Amorphic news,",
+  "date": "2021-04-20T00:00:00.000Z",
+  "formattedDate": "April 19, 2021",
+  "tags": [
+    {
+      "label": "welcome",
+      "permalink": "/news/tags/welcome"
+    },
+    {
+      "label": "Amorphic Community",
+      "permalink": "/news/tags/amorphic-community"
+    }
+  ],
+  "readingTime": 0.355,
+  "truncated": true
+}

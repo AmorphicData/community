@@ -1,0 +1,24 @@
+{
+  "permalink": "/blog/2020/02/03/how-much-cost",
+  "source": "@site/blog/2020-02-03-how-much-cost.mdx",
+  "title": "How Much Does it Cost to Build and Manage a Data Lake?",
+  "description": "From our experience of building data lakes for customers on AWS, it could cost anywhere between 200K - 1M USD depending",
+  "date": "2020-02-03T00:00:00.000Z",
+  "formattedDate": "February 2, 2020",
+  "tags": [
+    {
+      "label": "Cost Analysis",
+      "permalink": "/blog/tags/cost-analysis"
+    },
+    {
+      "label": "Amorphic Data Lake",
+      "permalink": "/blog/tags/amorphic-data-lake"
+    }
+  ],
+  "readingTime": 1.66,
+  "truncated": true,
+  "nextItem": {
+    "title": "A Deep Dive into Amazon Forecast",
+    "permalink": "/blog/2019/11/23/deepdive-into-amazon-forecast"
+  }
+}

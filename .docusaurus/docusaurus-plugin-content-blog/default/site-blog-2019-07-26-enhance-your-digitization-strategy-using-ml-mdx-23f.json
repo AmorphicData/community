@@ -1,0 +1,32 @@
+{
+  "permalink": "/blog/2019/07/26/enhance-your-digitization-strategy-using-ml",
+  "source": "@site/blog/2019-07-26-enhance-your-digitization-strategy-using-ml.mdx",
+  "title": "How to enhance your digitization strategy using AWS AI services?",
+  "description": "AI/ML is required to add data-driven intelligence to your business workflows and is proving to be a pre-requisite for your digitization journey. Many companies are unable to put together ML expertise very much required to train and deploy analytical models. AWS pre-trained AI services can fast-forward your digitization journey by enabling your existing applications with these capabilities with zero ML expertise.",
+  "date": "2019-07-26T00:00:00.000Z",
+  "formattedDate": "July 25, 2019",
+  "tags": [
+    {
+      "label": "Customer Journey",
+      "permalink": "/blog/tags/customer-journey"
+    },
+    {
+      "label": "Journey Analytics",
+      "permalink": "/blog/tags/journey-analytics"
+    },
+    {
+      "label": "C360",
+      "permalink": "/blog/tags/c-360"
+    }
+  ],
+  "readingTime": 5.45,
+  "truncated": true,
+  "prevItem": {
+    "title": "How a cloud data lake solution can handle decoupling of storage and compute?",
+    "permalink": "/blog/2019/08/16/how-could-dl-handle-storage-and-compute-decoupling"
+  },
+  "nextItem": {
+    "title": "How to build a Customer 360 Journey Analytics platform?",
+    "permalink": "/blog/2019/07/22/how-to-build-acustomer-360journey"
+  }
+}

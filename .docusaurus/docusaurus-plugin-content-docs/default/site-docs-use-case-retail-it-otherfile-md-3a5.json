@@ -1,0 +1,21 @@
+{
+  "unversionedId": "use-case/retail/it_otherfile",
+  "id": "use-case/retail/it_otherfile",
+  "isDocsHomePage": false,
+  "title": "Other Files",
+  "description": "Hello World",
+  "source": "@site/docs/use-case/retail/it_otherfile.md",
+  "sourceDirName": "use-case/retail",
+  "slug": "/use-case/retail/it_otherfile",
+  "permalink": "/docs/use-case/retail/it_otherfile",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/use-case/retail/it_otherfile.md",
+  "version": "current",
+  "frontMatter": {
+    "title": "Other Files"
+  },
+  "sidebar": "retail",
+  "previous": {
+    "title": "Tutorial Intro",
+    "permalink": "/docs/use-case/retail/intro"
+  }
+}

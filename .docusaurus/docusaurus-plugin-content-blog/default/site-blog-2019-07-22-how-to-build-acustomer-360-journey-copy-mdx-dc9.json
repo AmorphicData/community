@@ -1,0 +1,32 @@
+{
+  "permalink": "/blog/2019/07/22/how-to-build-acustomer-360journey copy",
+  "source": "@site/blog/2019-07-22-how-to-build-acustomer-360journey copy.mdx",
+  "title": "How to build a Customer 360 Journey Analytics platform?",
+  "description": "In recent years, companies have realized that Customer Experience (CX) enabled by customer journeys has become a key differentiator for survival and growth. Earlier post titled “From Customer Service to Customer Experience journeys - Data driven capabilities hold the key” highlighted the importance of building data driven capabilities for transforming the CX journeys (a.k.a Customer Journeys). In this post we look into high level architectural requirements of building a customer 360 (C360) Journey analytics platform.",
+  "date": "2019-07-22T00:00:00.000Z",
+  "formattedDate": "July 21, 2019",
+  "tags": [
+    {
+      "label": "Customer Journey",
+      "permalink": "/blog/tags/customer-journey"
+    },
+    {
+      "label": "Journey Analytics",
+      "permalink": "/blog/tags/journey-analytics"
+    },
+    {
+      "label": "C360",
+      "permalink": "/blog/tags/c-360"
+    }
+  ],
+  "readingTime": 5.47,
+  "truncated": true,
+  "prevItem": {
+    "title": "How Much Does it Cost to Build and Manage a Data Lake?",
+    "permalink": "/blog/2020/02/03/how-much-cost"
+  },
+  "nextItem": {
+    "title": "How to build a Customer 360 Journey Analytics platform?",
+    "permalink": "/blog/2019/07/22/how-to-build-acustomer-360journey"
+  }
+}

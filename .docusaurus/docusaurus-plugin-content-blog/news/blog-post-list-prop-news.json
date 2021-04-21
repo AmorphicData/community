@@ -1,0 +1,17 @@
+{
+  "title": "Latest news",
+  "items": [
+    {
+      "title": "V1.8.1 released",
+      "permalink": "/news/2021/04/01/v1.8.1-release"
+    },
+    {
+      "title": "V1.8.0 released",
+      "permalink": "/news/2021/03/01/v1.8.0-release"
+    },
+    {
+      "title": "New Release cycle",
+      "permalink": "/news/2020/08/30/release-cycle-change"
+    }
+  ]
+}

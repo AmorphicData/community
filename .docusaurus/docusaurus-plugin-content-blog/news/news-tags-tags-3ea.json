@@ -1,0 +1,51 @@
+{
+  "version-release": {
+    "allTagsPath": "/news/tags",
+    "slug": "version-release",
+    "name": "version release",
+    "count": 2,
+    "permalink": "/news/tags/version-release"
+  },
+  "v-1-8-1": {
+    "allTagsPath": "/news/tags",
+    "slug": "v-1-8-1",
+    "name": "v1.8.1",
+    "count": 1,
+    "permalink": "/news/tags/v-1-8-1"
+  },
+  "v-1-8-0": {
+    "allTagsPath": "/news/tags",
+    "slug": "v-1-8-0",
+    "name": "v1.8.0",
+    "count": 1,
+    "permalink": "/news/tags/v-1-8-0"
+  },
+  "new-release-cycle": {
+    "allTagsPath": "/news/tags",
+    "slug": "new-release-cycle",
+    "name": "new release cycle",
+    "count": 1,
+    "permalink": "/news/tags/new-release-cycle"
+  },
+  "update": {
+    "allTagsPath": "/news/tags",
+    "slug": "update",
+    "name": "update",
+    "count": 1,
+    "permalink": "/news/tags/update"
+  },
+  "welcome": {
+    "allTagsPath": "/news/tags",
+    "slug": "welcome",
+    "name": "welcome",
+    "count": 1,
+    "permalink": "/news/tags/welcome"
+  },
+  "amorphic-community": {
+    "allTagsPath": "/news/tags",
+    "slug": "amorphic-community",
+    "name": "amorphic community",
+    "count": 1,
+    "permalink": "/news/tags/amorphic-community"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "permalink": "/blog/2019/11/23/deepdive-into-amazon-forecast",
+  "source": "@site/blog/2019-11-23-deepdive-into-amazon-forecast.mdx",
+  "title": "A Deep Dive into Amazon Forecast",
+  "description": "Amazon announced its fully managed time series forecasting service, Forecast at AWS Re:Invent last year.",
+  "date": "2019-11-23T00:00:00.000Z",
+  "formattedDate": "November 22, 2019",
+  "tags": [
+    {
+      "label": "Cloud data Lake",
+      "permalink": "/blog/tags/cloud-data-lake"
+    }
+  ],
+  "readingTime": 10.34,
+  "truncated": true,
+  "prevItem": {
+    "title": "How Much Does it Cost to Build and Manage a Data Lake?",
+    "permalink": "/blog/2020/02/03/how-much-cost"
+  },
+  "nextItem": {
+    "title": "Effective Governance in Amorphic Platform",
+    "permalink": "/blog/2019/08/16/effective-governance-in-adp"
+  }
+}

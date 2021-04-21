@@ -1,0 +1,20 @@
+{
+  "unversionedId": "use-case/finance/folder/2_filename",
+  "id": "use-case/finance/folder/2_filename",
+  "isDocsHomePage": false,
+  "title": "2_filename",
+  "description": "",
+  "source": "@site/docs/use-case/finance/3_folder/3.2_filename.md",
+  "sourceDirName": "use-case/finance/3_folder",
+  "slug": "/use-case/finance/folder/2_filename",
+  "permalink": "/docs/use-case/finance/folder/2_filename",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/use-case/finance/3_folder/3.2_filename.md",
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {},
+  "sidebar": "finance",
+  "previous": {
+    "title": "1_filanem",
+    "permalink": "/docs/use-case/finance/folder/1_filanem"
+  }
+}

@@ -1,0 +1,121 @@
+---
+title: A Deep Dive into Amazon Forecast
+author: Shikhar Malik
+author_title: Customer Experience
+author_image_url: https://avatars.githubusercontent.com/u/8502456?v=4
+tags: [Cloud data Lake]
+---
+
+Amazon announced its fully managed time series forecasting service, Forecast at AWS Re:Invent last year.
+This year in August, it was made publically available, with the ability to train custom deep learning models without writing a
+single line of code or managing any infrastructure.
+ML-As-A-Service has become extremely popular in the last couple of years, because of their robustness, generalisability and
+low turnaround time in common business use cases.
+
+<!-- truncate -->
+
+Amazon Forecast is particularly interesting because it steps up ML as a service model by providing the ability to train on customer's data rather than just relying on pre-trained models.
+
+Time series forecasting problems are still solved in a majority of companies through classic approaches like ARIMA and do not fall in the Big Data or Deep Learning radar. Even though companies have started hiring Deep Learning specialists, not every Data Scientist has the skills to train, tune and scale time series based deep networks like LSTMs which are effectively proven to handle large and multivariate datasets. Amazon Forecast, essentially boils down a complex Data Science problem into a fairly simple data ingestion pipeline.
+
+In this article, we explore Forecast from a technical standpoint along with a Jupter notebook, which can help advanced users
+to get familiar with all aspects of the service. Forecast assumes and requires no ML knowledge and so does this article,
+though some of it was required to put together the notebook! So if you are just starting with ML, you can give
+it a casual read and if you are an intermediate to advanced user, you can [download](./media/forecast-deep-dive.ipynb_.zip) and run the notebook.
+
+### What are Time Series Problems
+
+Time series forecasting is one of the oldest and most prevalent problems solved by Machine Learning. It refers to a prediction problem of an entity changing with time and also intuitively heavily dependent on time. We have, knowingly or otherwise applied time series in our daily lives - when we estimate traffic when leaving at a particular time, or average out something from its value last week. Time series, as an ML domain, has a rich and established literature yet it remains an outsider when compared to its popular cousins like NLP and Image Processing. To understand the basic difference between a time series forecast and other classic ML problems, time series problems assume that time is the only dominant factor in predicting something - that is time related trends and seasonality are sufficient to accurately predict your target value. One key difference to understand is that while classic ML problems like Regression and Classification assume that two data points are isolated and independent; Time series models are auto-regressive in nature - i.e. the target value to predict (e.g. future Sales) is derived from its previous values in time. (E.g. Sales last week or Sales last holiday season). Also note that time series models require to be re-trained much more regularly compared to other ML models like image classifiers or language translators.
+
+### Training Data
+To understand Forecast's features, we chose this [dataset](https://www.kaggle.com/c/demand-forecasting-kernels-only/overview) which is a relatively simple and clean dataset to explore different time series techniques. We are given 5 years of store-item sales data, for 50 different items at 10 different stores. Forecast features 5 algorithms namely - ARIMA, ETS, NPTS, DeepAR_Plus and Prophet. Apart from manually choosing among these algorithms, Forecast comes with Auto ML functionality which will evaluate all algorithms and choose the one that performs best for your dataset. By the end of this article, we will try to ponder upon questions like - Does Deep Learning always work better than other methods like ARIMA? Is just choosing Auto ML always the best choice? How much data processing is required? Do we have to make our datasets stationary? How to incorporate store or location information? etc.
+
+![forecast-figure-1](./media/forecast-figure-1.png)
+
+We observe that the dataset has 900k rows with three columns. Here, S1 implies Store_One and P1 implies Product_One. The sales column can be assumed to be the units sold for that product on a particular day. The date column includes each day from 2013 to 2017. In the interest of saving some training time we cut down on the dataset size from 5 years to 3 years.
+
+![forecast-figure](./media/forecast-figure-2.png)
+
+Also we group the dataset by monthly total sales and apply some seasonal decomposition on it which returns visual charts related to trends and seasonality in the entire dataset. We observe that there is a general upward trend and strong seasonality repeated every year.
+
+![forecast-figure](./media/forecast-figure-3.png)
+
+Forecast provides Test results related metrics after a predictor is trained. However, we keep one month's of data at the end of the time series to act as unseen data in the future for evaluation.
+
+**Dataset Groups and Datasets**
+
+Next, we move on to using the Forecast APIs. This neat flow diagram from AWS's official blog shows all the steps involved in building your Forecast pipeline.
+
+![forecast-figure](./media/forecast-figure-4.png)
+
+- We start by creating a Dataset group, followed by defining the schema for our target time series.
+- We have followed the template for the Retail Domain which requires item_id and demand (sales) as a required field in the schema along with the timestamp. Note that we include the store (location) as a dimension in the schema.
+- We then create the target time series data set by triggering an import job. Forecast allows 3 types of datasets - Target, which is the primary dataset and has the timestamps; Item metadata and Related Time Series (Eg Competitor time series, Sales information from other cities, etc).
+- An import job needs to be triggered if there is an update to the data and we want that to be reflected in either the next training or a prediction request.
+
+Note that a S3 bucket and role with full access to Forecast are being used here which you might have to replace with your own resources.
+
+We now train three different flavors of Algorithms for training the predictors - ARIMA, Prophet, DeepAR; followed by the Auto ML option. Note that performance of any ML model does not depend solely on the algorithm but also the kind of data processing has been done it. Data processing is still largely a manual and a human-in-the-loop step and thus becomes a little subjective on the Data Scientist who is defining the problem.
+
+### 1. ARIMA
+
+Arima is one of the more matured algorithms in the time series community and often is considered the starting benchmark.
+
+- **AR - Auto regression or regression model based on the relationship between current observation and previous observations.**
+- **I - Integration - Essentially makes the time series stationary by differencing observations.**
+
+In a stationary time series, simply put, statistical components do not vary over time.
+This does not mean that the series in itself does not change over time, rather the way it changes itself does not change over time!
+If that is confusing, spend some time by searching image examples of stationary vs non stantionary series.
+For modeling, stationary is better than non stationary as it brings along independence between data points.
+This is a good [reference](https://stats.stackexchange.com/questions/19715/why-does-a-time-series-have-to-be-stationary) discussion thread for those who are curious. To keep things simple and focussed on Forecast, we did not perform any processing to make our series stationary.
+
+![forecast-figure](./media/forecast-figure-5.png)
+
+- **MA - Moving Average - Model that uses residual error from a moving average on lagged observations.**
+Data processing is still largely a manual and a human-in-the-loop step and thus becomes a little subjective on the Data Scientist who is defining the problem.
+
+### 2. PROPHET
+
+Prophet is an open source library published by Facebook and made public in mid 2017. In the last two years it has made it drastically easier. It is based on simple, intuitive and decomposable [TREND, SEASONALITY, HOLIDAYS] models. According to their github description - it is an additive model where non-linear trends are fit with yearly, weekly, and daily seasonality, plus holiday effe cts. It works best with time series that have strong seasonal effects and several seasons of historical data. Prophet is robust to missing data and shifts in the trend, and typically handles outliers well.`
+
+### 3. DeepAR (Plus)
+
+DeepAR stands for Deep Auto Regressive model, trained as a single model jointly over all of the time series using Recurrent Nueral Networks. Classical forecasting methods, such as ARIMA, fit a single model to each individual time series and then use that to extrapolate the time series into the future. When your dataset contains hundreds of related time series, for instance different products, server loads, and requests for webpages, DeepAR outperforms the standard ARIMA and ETS methods.
+
+![forecast-figure](./media/forecast-figure-6.png)
+
+DeepAR was introduced last year as a SageMaker built in algorithm and has helped us to work with customers to deploy DeepAR models to production in a streamlined manner compared to training and iterating over different RNNs from scratch, not to mention the billing from forgeting to shut down GPUs. DeepAR being available as a Managed service with the capability of comparing it with other standard models it helps solve the Deep vs Shallow discussions within your team right at the start of the use case. It also makes your pipeline robust for the future in case you are expecting an substantial increase in your data volume. We are not exactly sure about what the Plus in DeepAR stands for the Forecast offering, probably the auto hyperparameter tuning feature - which is definitely a plus point!
+
+### Training and Forecasting
+- Forecast horizon - For all the predictors being trained, we have used a forecast horizon of 31 days to compare it with 31 days of test data isolated from training at the start.
+- Predictor - We trigger 4 training jobs for Predictors based on ARIMA, Prophet, DeepAR and AutoML. Current configurations allow 3 training jobs to be run in paralel, a limit increase can be requested. We check the status by querying the status of the predictor from inside the notebook. When implementing it via a pipeline, similar can be subsituted by a wait lambda function inside a step function. AutoML algorithm trains on a bunch of different algorithms and returns the best model for our data and for that reason it will take about 4-5 times more time to train your model. It is usually the best place to start but if your data pipeline has matured and you know which Algorithm works best for your data - choosing the exact algorithm can also be considered.
+- Forecast - Once the training jobs are complete, we trigger Forecast jobs. Think of forecast jobs as hosting the trained predictors at the backend, only the infrastructure details are abstracted from us. You would not mind that at all!
+- Export jobs and queries - Forecast provides two ways to predict on unseen / future data - first by querying the Forecast object - where you can specify a filter on your query based on things like category, product etc. The other way is to export the predictions as CSV files for the entire forecast horizon. In the notebook, we use the export option as an example.
+- Reading from S3 - Once the export jobs have completed, we read and merge all the files from different models into a single dataframe (place) to compare the performance of all the models.
+ 
+
+### Results
+We compare the different RMSEs returned by each algorithm's export job. This RMSE is computed by picking the lowest among the 3 P Intervals provided by default. We wanted to have a error calculating mechanism by assuming unseen data, however Forecast does provide us with test metrics, out of which RMSE is shown here.
+
+![forecast-figure](./media/forecast-figure-7.png)
+
+- We observe the absolute sales unit prediction returned by all models and compare it against the true sales values.
+
+![forecast-figure](./media/forecast-figure-8.png)
+
+- This is a store wise averaged out sales comparison of true vs predicted values.
+
+![forecast-figure](./media/forecast-figure-9.png)
+
+
+
+![forecast-figure](./media/forecast-figure-10.png)
+
+- For our last comparison, we look at the absolute predicted values for the last 10 days of our available data, which is about 20 days ahead in future of our training data.
+
+![forecast-figure](./media/forecast-figure-11.png)
+
+We know it has been a long post, but if you followed the notebook in your AWS account, please do not forget to delete all Forecast related resources as those will incur some cost even when they are not being used.
+
+Thank you for reading and happy Forecasting!

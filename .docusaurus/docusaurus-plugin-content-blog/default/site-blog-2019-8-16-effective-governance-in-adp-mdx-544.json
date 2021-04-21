@@ -1,0 +1,24 @@
+{
+  "permalink": "/blog/2019/08/16/effective-governance-in-adp",
+  "source": "@site/blog/2019-8-16-effective-governance-in-adp.mdx",
+  "title": "Effective Governance in Amorphic Platform",
+  "description": "Most modern data lakes hold an ocean of possibility for organizations eager to put analytics to work.",
+  "date": "2019-08-16T07:00:00.000Z",
+  "formattedDate": "August 16, 2019",
+  "tags": [
+    {
+      "label": "Cloud data Lake",
+      "permalink": "/blog/tags/cloud-data-lake"
+    }
+  ],
+  "readingTime": 5.605,
+  "truncated": true,
+  "prevItem": {
+    "title": "A Deep Dive into Amazon Forecast",
+    "permalink": "/blog/2019/11/23/deepdive-into-amazon-forecast"
+  },
+  "nextItem": {
+    "title": "How a cloud data lake solution can handle decoupling of storage and compute?",
+    "permalink": "/blog/2019/08/16/how-could-dl-handle-storage-and-compute-decoupling"
+  }
+}

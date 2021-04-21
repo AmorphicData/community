@@ -1,0 +1,28 @@
+{
+  "permalink": "/news/2020/08/30/release-cycle-change",
+  "source": "@site/news/2020-08-30-release-cycle-change.mdx",
+  "title": "New Release cycle",
+  "description": "Since launching in 2018, Amorphic received updates approximately every four weeks. As of version 1.6, we’re moving from approximate monthly releases to a Quarterly Release Cycle to align with Cloudwick’s global strategy for Amorphic application releases. This means you can expect a new version once every quarter.",
+  "date": "2020-08-30T00:00:00.000Z",
+  "formattedDate": "August 29, 2020",
+  "tags": [
+    {
+      "label": "New release cycle",
+      "permalink": "/news/tags/new-release-cycle"
+    },
+    {
+      "label": "Update",
+      "permalink": "/news/tags/update"
+    }
+  ],
+  "readingTime": 0.635,
+  "truncated": true,
+  "prevItem": {
+    "title": "V1.8.0 released",
+    "permalink": "/news/2021/03/01/v1.8.0-release"
+  },
+  "nextItem": {
+    "title": "Welcome to Amorphic Community",
+    "permalink": "/news/welcome"
+  }
+}

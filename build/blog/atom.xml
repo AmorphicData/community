@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://amorphicdata.github.io/blog</id>
+    <title>Amorphic Community Blog</title>
+    <updated>2019-05-30T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://amorphicdata.github.io/blog"/>
+    <subtitle>Amorphic Community Blog</subtitle>
+    <icon>https://amorphicdata.github.io/img/core/favicon.ico</icon>
+    <rights>Copyright © 2021 Amorphic Data.</rights>
+    <entry>
+        <title type="html"><![CDATA[Welcome]]></title>
+        <id>welcome</id>
+        <link href="https://amorphicdata.github.io/blog/welcome"/>
+        <updated>2019-05-30T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Blog features are powered by the blog plugin. Simply add files to the blog directory. It supports tags as well!]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Hello]]></title>
+        <id>hello-world</id>
+        <link href="https://amorphicdata.github.io/blog/hello-world"/>
+        <updated>2019-05-29T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Welcome to this blog. This blog is created with Docusaurus 2 alpha.]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Hola]]></title>
+        <id>hola</id>
+        <link href="https://amorphicdata.github.io/blog/hola"/>
+        <updated>2019-05-28T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet]]></summary>
+    </entry>
+</feed>

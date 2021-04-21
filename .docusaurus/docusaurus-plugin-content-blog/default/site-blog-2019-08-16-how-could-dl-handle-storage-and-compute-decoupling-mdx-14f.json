@@ -1,0 +1,24 @@
+{
+  "permalink": "/blog/2019/08/16/how-could-dl-handle-storage-and-compute-decoupling",
+  "source": "@site/blog/2019-08-16-how-could-dl-handle-storage-and-compute-decoupling.mdx",
+  "title": "How a cloud data lake solution can handle decoupling of storage and compute?",
+  "description": "For an individual, their daily interactions with digital services and devices generate a certain amount of data every day, which increases exponentially over time, resulting in large and complex datasets of different formats. This presents challenges in not only storing all the different variety of data in a single platform for easy access but also in the processing of these data sources. In order to optimize cost of data processing workflows it is important to decouple the storage and compute of the data so that they can be scaled independently. A cloud data lake is increasingly becoming a popular choice for solving these challenges.",
+  "date": "2019-08-16T00:00:00.000Z",
+  "formattedDate": "August 15, 2019",
+  "tags": [
+    {
+      "label": "Cloud data Lake",
+      "permalink": "/blog/tags/cloud-data-lake"
+    }
+  ],
+  "readingTime": 4.9,
+  "truncated": true,
+  "prevItem": {
+    "title": "Effective Governance in Amorphic Platform",
+    "permalink": "/blog/2019/08/16/effective-governance-in-adp"
+  },
+  "nextItem": {
+    "title": "How to enhance your digitization strategy using AWS AI services?",
+    "permalink": "/blog/2019/07/26/enhance-your-digitization-strategy-using-ml"
+  }
+}

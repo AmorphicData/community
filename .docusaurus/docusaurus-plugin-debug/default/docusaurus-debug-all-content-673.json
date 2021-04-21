@@ -1,0 +1,542 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "loadedVersions": [
+        {
+          "versionName": "current",
+          "versionLabel": "Next",
+          "versionPath": "/docs",
+          "isLast": true,
+          "routePriority": -1,
+          "sidebarFilePath": "/Users/susheelkumarpogaku/Documents/git/amorphicdata-community/sidebars.js",
+          "contentPath": "/Users/susheelkumarpogaku/Documents/git/amorphicdata-community/docs",
+          "contentPathLocalized": "/Users/susheelkumarpogaku/Documents/git/amorphicdata-community/i18n/en/docusaurus-plugin-content-docs/current",
+          "mainDocId": "intro",
+          "sidebars": {
+            "dashboard": [
+              {
+                "type": "doc",
+                "id": "intro"
+              }
+            ]
+          },
+          "permalinkToSidebar": {
+            "/docs/intro": "dashboard"
+          },
+          "docs": [
+            {
+              "unversionedId": "intro",
+              "id": "intro",
+              "isDocsHomePage": false,
+              "title": "Tutorial Intro",
+              "description": "Let's discover Docusaurus in less than 5 minutes.",
+              "source": "@site/docs/intro.md",
+              "sourceDirName": ".",
+              "slug": "/intro",
+              "permalink": "/docs/intro",
+              "version": "current",
+              "frontMatter": {
+                "title": "Tutorial Intro",
+                "author": "Susheel"
+              },
+              "sidebar": "dashboard"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "docusaurus-plugin-content-blog": {
+    "default": {
+      "blogPosts": [
+        {
+          "id": "How Much Does it Cost to Build and Manage a Data Lake?",
+          "metadata": {
+            "permalink": "/blog/2020/02/03/how-much-cost",
+            "source": "@site/blog/2020-02-03-how-much-cost.mdx",
+            "title": "How Much Does it Cost to Build and Manage a Data Lake?",
+            "description": "From our experience of building data lakes for customers on AWS, it could cost anywhere between 200K - 1M USD depending",
+            "date": "2020-02-03T00:00:00.000Z",
+            "formattedDate": "February 2, 2020",
+            "tags": [
+              {
+                "label": "Cost Analysis",
+                "permalink": "/blog/tags/cost-analysis"
+              },
+              {
+                "label": "Amorphic Data Lake",
+                "permalink": "/blog/tags/amorphic-data-lake"
+              }
+            ],
+            "readingTime": 1.66,
+            "truncated": true,
+            "nextItem": {
+              "title": "A Deep Dive into Amazon Forecast",
+              "permalink": "/blog/2019/11/23/deepdive-into-amazon-forecast"
+            }
+          }
+        },
+        {
+          "id": "A Deep Dive into Amazon Forecast",
+          "metadata": {
+            "permalink": "/blog/2019/11/23/deepdive-into-amazon-forecast",
+            "source": "@site/blog/2019-11-23-deepdive-into-amazon-forecast.mdx",
+            "title": "A Deep Dive into Amazon Forecast",
+            "description": "Amazon announced its fully managed time series forecasting service, Forecast at AWS Re:Invent last year.",
+            "date": "2019-11-23T00:00:00.000Z",
+            "formattedDate": "November 22, 2019",
+            "tags": [
+              {
+                "label": "Cloud data Lake",
+                "permalink": "/blog/tags/cloud-data-lake"
+              }
+            ],
+            "readingTime": 10.34,
+            "truncated": true,
+            "prevItem": {
+              "title": "How Much Does it Cost to Build and Manage a Data Lake?",
+              "permalink": "/blog/2020/02/03/how-much-cost"
+            },
+            "nextItem": {
+              "title": "Effective Governance in Amorphic Platform",
+              "permalink": "/blog/2019/08/16/effective-governance-in-adp"
+            }
+          }
+        },
+        {
+          "id": "Effective Governance in Amorphic Platform",
+          "metadata": {
+            "permalink": "/blog/2019/08/16/effective-governance-in-adp",
+            "source": "@site/blog/2019-8-16-effective-governance-in-adp.mdx",
+            "title": "Effective Governance in Amorphic Platform",
+            "description": "Most modern data lakes hold an ocean of possibility for organizations eager to put analytics to work.",
+            "date": "2019-08-16T07:00:00.000Z",
+            "formattedDate": "August 16, 2019",
+            "tags": [
+              {
+                "label": "Cloud data Lake",
+                "permalink": "/blog/tags/cloud-data-lake"
+              }
+            ],
+            "readingTime": 5.605,
+            "truncated": true,
+            "prevItem": {
+              "title": "A Deep Dive into Amazon Forecast",
+              "permalink": "/blog/2019/11/23/deepdive-into-amazon-forecast"
+            },
+            "nextItem": {
+              "title": "How a cloud data lake solution can handle decoupling of storage and compute?",
+              "permalink": "/blog/2019/08/16/how-could-dl-handle-storage-and-compute-decoupling"
+            }
+          }
+        },
+        {
+          "id": "How a cloud data lake solution can handle decoupling of storage and compute?",
+          "metadata": {
+            "permalink": "/blog/2019/08/16/how-could-dl-handle-storage-and-compute-decoupling",
+            "source": "@site/blog/2019-08-16-how-could-dl-handle-storage-and-compute-decoupling.mdx",
+            "title": "How a cloud data lake solution can handle decoupling of storage and compute?",
+            "description": "For an individual, their daily interactions with digital services and devices generate a certain amount of data every day, which increases exponentially over time, resulting in large and complex datasets of different formats. This presents challenges in not only storing all the different variety of data in a single platform for easy access but also in the processing of these data sources. In order to optimize cost of data processing workflows it is important to decouple the storage and compute of the data so that they can be scaled independently. A cloud data lake is increasingly becoming a popular choice for solving these challenges.",
+            "date": "2019-08-16T00:00:00.000Z",
+            "formattedDate": "August 15, 2019",
+            "tags": [
+              {
+                "label": "Cloud data Lake",
+                "permalink": "/blog/tags/cloud-data-lake"
+              }
+            ],
+            "readingTime": 4.9,
+            "truncated": true,
+            "prevItem": {
+              "title": "Effective Governance in Amorphic Platform",
+              "permalink": "/blog/2019/08/16/effective-governance-in-adp"
+            },
+            "nextItem": {
+              "title": "How to enhance your digitization strategy using AWS AI services?",
+              "permalink": "/blog/2019/07/26/enhance-your-digitization-strategy-using-ml"
+            }
+          }
+        },
+        {
+          "id": "How to enhance your digitization strategy using AWS AI services?",
+          "metadata": {
+            "permalink": "/blog/2019/07/26/enhance-your-digitization-strategy-using-ml",
+            "source": "@site/blog/2019-07-26-enhance-your-digitization-strategy-using-ml.mdx",
+            "title": "How to enhance your digitization strategy using AWS AI services?",
+            "description": "AI/ML is required to add data-driven intelligence to your business workflows and is proving to be a pre-requisite for your digitization journey. Many companies are unable to put together ML expertise very much required to train and deploy analytical models. AWS pre-trained AI services can fast-forward your digitization journey by enabling your existing applications with these capabilities with zero ML expertise.",
+            "date": "2019-07-26T00:00:00.000Z",
+            "formattedDate": "July 25, 2019",
+            "tags": [
+              {
+                "label": "Customer Journey",
+                "permalink": "/blog/tags/customer-journey"
+              },
+              {
+                "label": "Journey Analytics",
+                "permalink": "/blog/tags/journey-analytics"
+              },
+              {
+                "label": "C360",
+                "permalink": "/blog/tags/c-360"
+              }
+            ],
+            "readingTime": 5.45,
+            "truncated": true,
+            "prevItem": {
+              "title": "How a cloud data lake solution can handle decoupling of storage and compute?",
+              "permalink": "/blog/2019/08/16/how-could-dl-handle-storage-and-compute-decoupling"
+            },
+            "nextItem": {
+              "title": "How to build a Customer 360 Journey Analytics platform?",
+              "permalink": "/blog/2019/07/22/how-to-build-acustomer-360journey"
+            }
+          }
+        },
+        {
+          "id": "How to build a Customer 360 Journey Analytics platform?",
+          "metadata": {
+            "permalink": "/blog/2019/07/22/how-to-build-acustomer-360journey",
+            "source": "@site/blog/2019-07-22-how-to-build-acustomer-360journey.mdx",
+            "title": "How to build a Customer 360 Journey Analytics platform?",
+            "description": "In recent years, companies have realized that Customer Experience (CX) enabled by customer journeys has become a key differentiator for survival and growth. Earlier post titled “From Customer Service to Customer Experience journeys - Data driven capabilities hold the key” highlighted the importance of building data driven capabilities for transforming the CX journeys (a.k.a Customer Journeys). In this post we look into high level architectural requirements of building a customer 360 (C360) Journey analytics platform.",
+            "date": "2019-07-22T00:00:00.000Z",
+            "formattedDate": "July 21, 2019",
+            "tags": [
+              {
+                "label": "Customer Journey",
+                "permalink": "/blog/tags/customer-journey"
+              },
+              {
+                "label": "Journey Analytics",
+                "permalink": "/blog/tags/journey-analytics"
+              },
+              {
+                "label": "C360",
+                "permalink": "/blog/tags/c-360"
+              }
+            ],
+            "readingTime": 5.475,
+            "truncated": true,
+            "prevItem": {
+              "title": "How to enhance your digitization strategy using AWS AI services?",
+              "permalink": "/blog/2019/07/26/enhance-your-digitization-strategy-using-ml"
+            }
+          }
+        }
+      ],
+      "blogListPaginated": [
+        {
+          "metadata": {
+            "permalink": "/blog",
+            "page": 1,
+            "postsPerPage": 5,
+            "totalPages": 2,
+            "totalCount": 6,
+            "previousPage": null,
+            "nextPage": "/blog/page/2",
+            "blogDescription": "Blog",
+            "blogTitle": "Blog title"
+          },
+          "items": [
+            "How Much Does it Cost to Build and Manage a Data Lake?",
+            "A Deep Dive into Amazon Forecast",
+            "Effective Governance in Amorphic Platform",
+            "How a cloud data lake solution can handle decoupling of storage and compute?",
+            "How to enhance your digitization strategy using AWS AI services?"
+          ]
+        },
+        {
+          "metadata": {
+            "permalink": "/blog/page/2",
+            "page": 2,
+            "postsPerPage": 5,
+            "totalPages": 2,
+            "totalCount": 6,
+            "previousPage": "/blog",
+            "nextPage": null,
+            "blogDescription": "Blog",
+            "blogTitle": "Blog title"
+          },
+          "items": [
+            "How to build a Customer 360 Journey Analytics platform?"
+          ]
+        }
+      ],
+      "blogTags": {
+        "cost-analysis": {
+          "name": "cost analysis",
+          "items": [
+            "How Much Does it Cost to Build and Manage a Data Lake?"
+          ],
+          "permalink": "/blog/tags/cost-analysis"
+        },
+        "amorphic-data-lake": {
+          "name": "amorphic data lake",
+          "items": [
+            "How Much Does it Cost to Build and Manage a Data Lake?"
+          ],
+          "permalink": "/blog/tags/amorphic-data-lake"
+        },
+        "cloud-data-lake": {
+          "name": "cloud data lake",
+          "items": [
+            "A Deep Dive into Amazon Forecast",
+            "Effective Governance in Amorphic Platform",
+            "How a cloud data lake solution can handle decoupling of storage and compute?"
+          ],
+          "permalink": "/blog/tags/cloud-data-lake"
+        },
+        "customer-journey": {
+          "name": "customer journey",
+          "items": [
+            "How to enhance your digitization strategy using AWS AI services?",
+            "How to build a Customer 360 Journey Analytics platform?"
+          ],
+          "permalink": "/blog/tags/customer-journey"
+        },
+        "journey-analytics": {
+          "name": "journey analytics",
+          "items": [
+            "How to enhance your digitization strategy using AWS AI services?",
+            "How to build a Customer 360 Journey Analytics platform?"
+          ],
+          "permalink": "/blog/tags/journey-analytics"
+        },
+        "c-360": {
+          "name": "c360",
+          "items": [
+            "How to enhance your digitization strategy using AWS AI services?",
+            "How to build a Customer 360 Journey Analytics platform?"
+          ],
+          "permalink": "/blog/tags/c-360"
+        }
+      },
+      "blogTagsListPath": "/blog/tags"
+    },
+    "news": {
+      "blogPosts": [
+        {
+          "id": "V1.8.1 released",
+          "metadata": {
+            "permalink": "/news/2021/04/01/v1.8.1-release",
+            "source": "@site/news/2021-04-01-v1.8.1-release.mdx",
+            "title": "V1.8.1 released",
+            "description": "Amorphic Data Platform (ADP) version v1.8.1 is released.",
+            "date": "2021-04-01T00:00:00.000Z",
+            "formattedDate": "March 31, 2021",
+            "tags": [
+              {
+                "label": "version release",
+                "permalink": "/news/tags/version-release"
+              },
+              {
+                "label": "v1.8.1",
+                "permalink": "/news/tags/v-1-8-1"
+              }
+            ],
+            "readingTime": 0.82,
+            "truncated": true,
+            "nextItem": {
+              "title": "V1.8.0 released",
+              "permalink": "/news/2021/03/01/v1.8.0-release"
+            }
+          }
+        },
+        {
+          "id": "V1.8.0 released",
+          "metadata": {
+            "permalink": "/news/2021/03/01/v1.8.0-release",
+            "source": "@site/news/2021-03-01-v1.8.0-release.mdx",
+            "title": "V1.8.0 released",
+            "description": "Amorphic Data Platform (ADP) version v1.8.0 is released.",
+            "date": "2021-03-01T00:00:00.000Z",
+            "formattedDate": "February 28, 2021",
+            "tags": [
+              {
+                "label": "version release",
+                "permalink": "/news/tags/version-release"
+              },
+              {
+                "label": "v1.8.0",
+                "permalink": "/news/tags/v-1-8-0"
+              }
+            ],
+            "readingTime": 4.165,
+            "truncated": true,
+            "prevItem": {
+              "title": "V1.8.1 released",
+              "permalink": "/news/2021/04/01/v1.8.1-release"
+            },
+            "nextItem": {
+              "title": "New Release cycle",
+              "permalink": "/news/2020/08/30/release-cycle-change"
+            }
+          }
+        },
+        {
+          "id": "New Release cycle",
+          "metadata": {
+            "permalink": "/news/2020/08/30/release-cycle-change",
+            "source": "@site/news/2020-08-30-release-cycle-change.mdx",
+            "title": "New Release cycle",
+            "description": "Since launching in 2018, Amorphic received updates approximately every four weeks. As of version 1.6, we’re moving from approximate monthly releases to a Quarterly Release Cycle to align with Cloudwick’s global strategy for Amorphic application releases. This means you can expect a new version once every quarter.",
+            "date": "2020-08-30T00:00:00.000Z",
+            "formattedDate": "August 29, 2020",
+            "tags": [
+              {
+                "label": "New release cycle",
+                "permalink": "/news/tags/new-release-cycle"
+              },
+              {
+                "label": "Update",
+                "permalink": "/news/tags/update"
+              }
+            ],
+            "readingTime": 0.635,
+            "truncated": true,
+            "prevItem": {
+              "title": "V1.8.0 released",
+              "permalink": "/news/2021/03/01/v1.8.0-release"
+            },
+            "nextItem": {
+              "title": "Welcome to Amorphic Community",
+              "permalink": "/news/welcome"
+            }
+          }
+        },
+        {
+          "id": "welcome",
+          "metadata": {
+            "permalink": "/news/welcome",
+            "source": "@site/news/2017-02-13-welcome-susheel.md",
+            "title": "Welcome to Amorphic Community",
+            "description": "Hello & welcome to Amorphic Community community a place to check latest Amorphic news,",
+            "date": "2017-02-13T00:00:00.000Z",
+            "formattedDate": "February 12, 2017",
+            "tags": [
+              {
+                "label": "welcome",
+                "permalink": "/news/tags/welcome"
+              },
+              {
+                "label": "Amorphic Community",
+                "permalink": "/news/tags/amorphic-community"
+              }
+            ],
+            "readingTime": 0.355,
+            "truncated": true,
+            "prevItem": {
+              "title": "New Release cycle",
+              "permalink": "/news/2020/08/30/release-cycle-change"
+            }
+          }
+        }
+      ],
+      "blogListPaginated": [
+        {
+          "metadata": {
+            "permalink": "/news",
+            "page": 1,
+            "postsPerPage": 10,
+            "totalPages": 1,
+            "totalCount": 4,
+            "previousPage": null,
+            "nextPage": null,
+            "blogDescription": "News",
+            "blogTitle": "News title"
+          },
+          "items": [
+            "V1.8.1 released",
+            "V1.8.0 released",
+            "New Release cycle",
+            "welcome"
+          ]
+        }
+      ],
+      "blogTags": {
+        "version-release": {
+          "name": "version release",
+          "items": [
+            "V1.8.1 released",
+            "V1.8.0 released"
+          ],
+          "permalink": "/news/tags/version-release"
+        },
+        "v-1-8-1": {
+          "name": "v1.8.1",
+          "items": [
+            "V1.8.1 released"
+          ],
+          "permalink": "/news/tags/v-1-8-1"
+        },
+        "v-1-8-0": {
+          "name": "v1.8.0",
+          "items": [
+            "V1.8.0 released"
+          ],
+          "permalink": "/news/tags/v-1-8-0"
+        },
+        "new-release-cycle": {
+          "name": "new release cycle",
+          "items": [
+            "New Release cycle"
+          ],
+          "permalink": "/news/tags/new-release-cycle"
+        },
+        "update": {
+          "name": "update",
+          "items": [
+            "New Release cycle"
+          ],
+          "permalink": "/news/tags/update"
+        },
+        "welcome": {
+          "name": "welcome",
+          "items": [
+            "welcome"
+          ],
+          "permalink": "/news/tags/welcome"
+        },
+        "amorphic-community": {
+          "name": "amorphic community",
+          "items": [
+            "welcome"
+          ],
+          "permalink": "/news/tags/amorphic-community"
+        }
+      },
+      "blogTagsListPath": "/news/tags"
+    }
+  },
+  "docusaurus-plugin-content-pages": {
+    "default": [
+      {
+        "type": "jsx",
+        "permalink": "/",
+        "source": "@site/src/pages/index.js"
+      },
+      {
+        "type": "mdx",
+        "permalink": "/markdown-page",
+        "source": "@site/src/pages/markdown-page.md"
+      },
+      {
+        "type": "jsx",
+        "permalink": "/team/",
+        "source": "@site/src/pages/team/index.js"
+      }
+    ]
+  },
+  "docusaurus-plugin-debug": {
+    "default": null
+  },
+  "docusaurus-theme-classic": {
+    "default": null
+  },
+  "docusaurus-plugin-sass": {
+    "default": null
+  },
+  "docusaurus-plugin-ideal-image": {
+    "default": null
+  }
+}

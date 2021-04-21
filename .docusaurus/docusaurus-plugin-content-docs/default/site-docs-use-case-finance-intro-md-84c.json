@@ -1,0 +1,26 @@
+{
+  "unversionedId": "use-case/finance/intro",
+  "id": "use-case/finance/intro",
+  "isDocsHomePage": false,
+  "title": "Tutorial Intro",
+  "description": "Let's discover Docusaurus in less than 5 minutes.",
+  "source": "@site/docs/use-case/finance/intro.md",
+  "sourceDirName": "use-case/finance",
+  "slug": "/use-case/finance/intro",
+  "permalink": "/docs/use-case/finance/intro",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/use-case/finance/intro.md",
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "finance",
+  "previous": {
+    "title": "filename",
+    "permalink": "/docs/use-case/finance/filename"
+  },
+  "next": {
+    "title": "secondfile",
+    "permalink": "/docs/use-case/finance/secondfile"
+  }
+}

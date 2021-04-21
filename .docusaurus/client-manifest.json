@@ -1,0 +1,454 @@
+{
+  "entrypoints": [
+    "main"
+  ],
+  "origins": {
+    "2": [
+      0,
+      1,
+      12,
+      15,
+      22,
+      2
+    ],
+    "common": [
+      1,
+      2,
+      3,
+      5,
+      6,
+      8,
+      10,
+      11,
+      12,
+      13,
+      15,
+      18,
+      20,
+      21,
+      22,
+      23,
+      27,
+      28,
+      29,
+      0
+    ],
+    "styles": [
+      0,
+      2,
+      3,
+      6,
+      12,
+      15,
+      21,
+      22,
+      25,
+      26,
+      27,
+      28,
+      29,
+      1
+    ],
+    "@theme/BlogTagsListPage": [
+      0,
+      1,
+      3
+    ],
+    "~blog/default/blog-tags-facebook-038.json": [
+      4
+    ],
+    "@site/docs/intro.md": [
+      0,
+      5
+    ],
+    "@theme/DocItem": [
+      0,
+      1,
+      6
+    ],
+    "/Users/susheelkumarpogaku/Documents/git/amorphicdata-community/.docusaurus/docusaurus-plugin-content-blog/default/blog-post-list-prop-default.json": [
+      7
+    ],
+    "@site/blog/2019-05-30-welcome.md": [
+      0,
+      8
+    ],
+    "~blog/default/blog-tags-hello-039.json": [
+      9
+    ],
+    "@site/blog/2019-05-29-hello-world.md?truncated=true": [
+      0,
+      10
+    ],
+    "@site/src/pages/markdown-page.md": [
+      0,
+      11
+    ],
+    "@theme/BlogTagsPostsPage": [
+      0,
+      1,
+      2,
+      12
+    ],
+    "@site/blog/2019-05-28-hola.md?truncated=true": [
+      0,
+      13
+    ],
+    "~docs/default/version-current-metadata-prop-751.json": [
+      14
+    ],
+    "@theme/BlogListPage": [
+      0,
+      1,
+      2,
+      15
+    ],
+    "~blog/default/blog-tags-tags-4c2.json": [
+      16
+    ],
+    "~blog/default/blog-tags-docusaurus-0e0.json": [
+      17
+    ],
+    "@site/blog/2019-05-30-welcome.md?truncated=true": [
+      0,
+      18
+    ],
+    "~blog/default/blog-c06.json": [
+      19
+    ],
+    "@site/blog/2019-05-28-hola.md": [
+      0,
+      20
+    ],
+    "@site/src/pages/index.js": [
+      0,
+      1,
+      21
+    ],
+    "@theme/BlogPostPage": [
+      0,
+      1,
+      2,
+      22
+    ],
+    "@site/blog/2019-05-29-hello-world.md": [
+      0,
+      23
+    ],
+    "~blog/default/blog-tags-hola-ea2.json": [
+      24
+    ],
+    "@generated/docusaurus.config": [
+      1,
+      26,
+      25
+    ],
+    "main": [
+      1,
+      26,
+      25
+    ],
+    "runtime~main": [
+      1,
+      25,
+      26
+    ],
+    "@theme/DocPage": [
+      0,
+      1,
+      29
+    ],
+    "@theme/NotFound": [
+      0,
+      1,
+      29
+    ],
+    "@theme/MDXPage": [
+      0,
+      1,
+      28
+    ]
+  },
+  "assets": {
+    "0": {
+      "js": [
+        {
+          "file": "assets/js/common.8c284f33.js",
+          "hash": "d3b47bc7286db5af0950",
+          "publicPath": "/assets/js/common.8c284f33.js"
+        }
+      ]
+    },
+    "1": {
+      "css": [
+        {
+          "file": "assets/css/styles.6d1c10f4.css",
+          "hash": "0b231ed70f913de03d68",
+          "publicPath": "/assets/css/styles.6d1c10f4.css"
+        }
+      ],
+      "js": [
+        {
+          "file": "assets/js/styles.ffa61d1a.js",
+          "hash": "0b231ed70f913de03d68",
+          "publicPath": "/assets/js/styles.ffa61d1a.js"
+        }
+      ]
+    },
+    "2": {
+      "js": [
+        {
+          "file": "assets/js/2.4ee4812f.js",
+          "hash": "3e8c9ce5e6a14388d95e",
+          "publicPath": "/assets/js/2.4ee4812f.js"
+        }
+      ]
+    },
+    "3": {
+      "js": [
+        {
+          "file": "assets/js/01a85c17.51576fa2.js",
+          "hash": "5d11ee0fc20f8566abbb",
+          "publicPath": "/assets/js/01a85c17.51576fa2.js"
+        }
+      ]
+    },
+    "4": {
+      "js": [
+        {
+          "file": "assets/js/031793e1.49e7c121.js",
+          "hash": "2d1f799c042f6e13537a",
+          "publicPath": "/assets/js/031793e1.49e7c121.js"
+        }
+      ]
+    },
+    "5": {
+      "js": [
+        {
+          "file": "assets/js/0e384e19.0d2fd9e0.js",
+          "hash": "509bc4e298b45728a4a0",
+          "publicPath": "/assets/js/0e384e19.0d2fd9e0.js"
+        }
+      ]
+    },
+    "6": {
+      "js": [
+        {
+          "file": "assets/js/17896441.f3bf5319.js",
+          "hash": "ecdc4fe7aec1cdec5e15",
+          "publicPath": "/assets/js/17896441.f3bf5319.js"
+        }
+      ]
+    },
+    "7": {
+      "js": [
+        {
+          "file": "assets/js/238568a6.64566740.js",
+          "hash": "49621baa3f4b6b56db8b",
+          "publicPath": "/assets/js/238568a6.64566740.js"
+        }
+      ]
+    },
+    "8": {
+      "js": [
+        {
+          "file": "assets/js/2868cdab.cb0a6290.js",
+          "hash": "fe4cbcc65290c5d09183",
+          "publicPath": "/assets/js/2868cdab.cb0a6290.js"
+        }
+      ]
+    },
+    "9": {
+      "js": [
+        {
+          "file": "assets/js/30a24c52.ce8f077a.js",
+          "hash": "f538c982f6a16107a5f5",
+          "publicPath": "/assets/js/30a24c52.ce8f077a.js"
+        }
+      ]
+    },
+    "10": {
+      "js": [
+        {
+          "file": "assets/js/3570154c.e54802d3.js",
+          "hash": "a5ed511a780eec81a0d8",
+          "publicPath": "/assets/js/3570154c.e54802d3.js"
+        }
+      ]
+    },
+    "11": {
+      "js": [
+        {
+          "file": "assets/js/393be207.a593fc6a.js",
+          "hash": "bf90352d173e03d56bbf",
+          "publicPath": "/assets/js/393be207.a593fc6a.js"
+        }
+      ]
+    },
+    "12": {
+      "js": [
+        {
+          "file": "assets/js/6875c492.a25ad2fd.js",
+          "hash": "f04a44c46f0a566968a3",
+          "publicPath": "/assets/js/6875c492.a25ad2fd.js"
+        }
+      ]
+    },
+    "13": {
+      "js": [
+        {
+          "file": "assets/js/8e9f0a8a.0696a7e7.js",
+          "hash": "c9c77c108aa500ddec09",
+          "publicPath": "/assets/js/8e9f0a8a.0696a7e7.js"
+        }
+      ]
+    },
+    "14": {
+      "js": [
+        {
+          "file": "assets/js/935f2afb.d7b87c96.js",
+          "hash": "75c7cc5194de032304ed",
+          "publicPath": "/assets/js/935f2afb.d7b87c96.js"
+        }
+      ]
+    },
+    "15": {
+      "js": [
+        {
+          "file": "assets/js/a6aa9e1f.55ced0e4.js",
+          "hash": "79470e04856c3dac6ef8",
+          "publicPath": "/assets/js/a6aa9e1f.55ced0e4.js"
+        }
+      ]
+    },
+    "16": {
+      "js": [
+        {
+          "file": "assets/js/a7023ddc.dbdf4bc3.js",
+          "hash": "c70c1953a0ed6646da0d",
+          "publicPath": "/assets/js/a7023ddc.dbdf4bc3.js"
+        }
+      ]
+    },
+    "17": {
+      "js": [
+        {
+          "file": "assets/js/a80da1cf.8ba7c62d.js",
+          "hash": "8a2c5f18d2fc81365c44",
+          "publicPath": "/assets/js/a80da1cf.8ba7c62d.js"
+        }
+      ]
+    },
+    "18": {
+      "js": [
+        {
+          "file": "assets/js/af172acd.6609d772.js",
+          "hash": "a51d8987554e48f092f7",
+          "publicPath": "/assets/js/af172acd.6609d772.js"
+        }
+      ]
+    },
+    "19": {
+      "js": [
+        {
+          "file": "assets/js/b2b675dd.2472ead3.js",
+          "hash": "4f24514ba9783c45c54a",
+          "publicPath": "/assets/js/b2b675dd.2472ead3.js"
+        }
+      ]
+    },
+    "20": {
+      "js": [
+        {
+          "file": "assets/js/bdd709f1.730dce80.js",
+          "hash": "3bf2486e2271faead67e",
+          "publicPath": "/assets/js/bdd709f1.730dce80.js"
+        }
+      ]
+    },
+    "21": {
+      "js": [
+        {
+          "file": "assets/js/c4f5d8e4.7ad00fed.js",
+          "hash": "e15e2cce0e7f39f69bb1",
+          "publicPath": "/assets/js/c4f5d8e4.7ad00fed.js"
+        }
+      ]
+    },
+    "22": {
+      "js": [
+        {
+          "file": "assets/js/ccc49370.481ae8fa.js",
+          "hash": "7d7d6c401d02a2e2ced8",
+          "publicPath": "/assets/js/ccc49370.481ae8fa.js"
+        }
+      ]
+    },
+    "23": {
+      "js": [
+        {
+          "file": "assets/js/d610846f.2a07f97a.js",
+          "hash": "6716dd5b9087de804e82",
+          "publicPath": "/assets/js/d610846f.2a07f97a.js"
+        }
+      ]
+    },
+    "24": {
+      "js": [
+        {
+          "file": "assets/js/e16015ca.f5708303.js",
+          "hash": "b34f6cf45151c33b4a5e",
+          "publicPath": "/assets/js/e16015ca.f5708303.js"
+        }
+      ]
+    },
+    "25": {
+      "css": [
+        {
+          "file": "assets/css/main.f5d09560.css",
+          "hash": "519350d336ca3f7bcb0a",
+          "publicPath": "/assets/css/main.f5d09560.css"
+        }
+      ],
+      "js": [
+        {
+          "file": "assets/js/main.7d04525a.js",
+          "hash": "519350d336ca3f7bcb0a",
+          "publicPath": "/assets/js/main.7d04525a.js"
+        }
+      ]
+    },
+    "26": {
+      "js": [
+        {
+          "file": "assets/js/runtime~main.9c60933d.js",
+          "hash": "0486cd9ebecbf8556957",
+          "publicPath": "/assets/js/runtime~main.9c60933d.js"
+        }
+      ]
+    },
+    "28": {
+      "js": [
+        {
+          "file": "assets/js/28.e59e0b24.js",
+          "hash": "d07036d71742167d99ff",
+          "publicPath": "/assets/js/28.e59e0b24.js"
+        }
+      ]
+    },
+    "29": {
+      "js": [
+        {
+          "file": "assets/js/27.8357a45a.js",
+          "hash": "27131ccd6715456911f0",
+          "publicPath": "/assets/js/27.8357a45a.js"
+        },
+        {
+          "file": "assets/js/29.ffd32aeb.js",
+          "hash": "00cf01635b3903812f17",
+          "publicPath": "/assets/js/29.ffd32aeb.js"
+        }
+      ]
+    }
+  }
+}

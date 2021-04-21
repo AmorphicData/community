@@ -1,0 +1,18 @@
+{
+  "pluginId": "default",
+  "version": "current",
+  "label": "Next",
+  "isLast": true,
+  "docsSidebars": {
+    "dashboard": [
+      {
+        "type": "link",
+        "label": "Tutorial Intro",
+        "href": "/docs/intro"
+      }
+    ]
+  },
+  "permalinkToSidebar": {
+    "/docs/intro": "dashboard"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "unversionedId": "use-case/finance/secondfile",
+  "id": "use-case/finance/secondfile",
+  "isDocsHomePage": false,
+  "title": "secondfile",
+  "description": "",
+  "source": "@site/docs/use-case/finance/2_secondfile.mdx",
+  "sourceDirName": "use-case/finance",
+  "slug": "/use-case/finance/secondfile",
+  "permalink": "/docs/use-case/finance/secondfile",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/use-case/finance/2_secondfile.mdx",
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {},
+  "sidebar": "finance",
+  "previous": {
+    "title": "Tutorial Intro",
+    "permalink": "/docs/use-case/finance/intro"
+  },
+  "next": {
+    "title": "1-filanem",
+    "permalink": "/docs/use-case/finance/folder/1-filanem"
+  }
+}

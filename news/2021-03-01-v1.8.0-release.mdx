@@ -1,0 +1,96 @@
+---
+title: V1.8.0 released
+author: Amorphic Data
+author_url: https://github.com/AmorphicData
+author_image_url: https://avatars.githubusercontent.com/u/82240290?s=200&v=4
+tags: [version release, v1.8.0]
+---
+
+Amorphic Data Platform (ADP) version v1.8.0 is released.
+
+<!-- truncate -->
+
+## Release Notes
+
+### Feature Requests (4)
+- [CLOUD-1585] - Addition of Comprehend and Medical Comprehend nodes to workflow
+- [CLOUD-1208] - Support for timeline based deletion of data from datasets
+- [CLOUD-1493] - Glue Bookmarking feature integration
+- [CLOUD-1733] - Materialized views for Redshift
+
+### Enhancements (15)
+- [CLOUD-1402] - Ability to stop and restart a workflow execution
+- [CLOUD-1631] - Allow the ‘Apply ML Model’ option to use the allocated capacity of pre and post processing ETL jobs instead of default values.
+- [CLOUD-1653] - Reuse DMS task name that is deleted
+- [CLOUD-1654] - Datasets registration changes in DMS
+- [CLOUD-1643] - Automated file copy to redshift/s3 for reload type datasets using morph job
+- [CLOUD-1671] – Dataset option to either move the reload dataset data to trash bucket or delete permanently
+- [CLOUD-1628] - Restrict the last user from deleting the auth user/group of the resource (ETL Jobs and Libraries)
+- [CLOUD-1701] – Remove API request body for starting/stopping a notebook
+- [CLOUD-1706] - Addition of new feature RawResponse to textract node
+- [CLOUD-1638] - Allowing S3 Datasets in Morph
+- [CLOUD-1633] – Ec2 Backup and Glue catalog encryption
+- [CLOUD-1731] - Display all the ETL job executions including the retry attempts of the job execution.
+- [CLOUD-1712] - UI: Display related tooltip/information in the Data load limits page.
+- [CLOUD-1732] - Logs for Workflow ETL nodes
+- [CLOUD-1651] - Redshift Operationalize queries Phase 2
+
+### Bug Fixes (28)
+- [CLOUD-1186] - Unable to create a schedule with a rule which is already targeted with 5 schedules.
+- [CLOUD-1601] - Unable to rectify the exact error while extracting the file schema for a dataset
+- [CLOUD-1661] - ‘Invalid notification message’ error is getting displayed while repairing the dataset.
+- [CLOUD-1662] - Keywords are being incorrectly added to the Kinesis consumer dataset.
+- [CLOUD-1668] - ETL Job worker type resets to older setting when External libraries are updated
+- [CLOUD-1669] - Unable to reset MaxRetries metadata in ETL JOB to zero or N/A
+- [CLOUD-1632] - Unable to create a new JDBC bulk task with huge tables due to lambda timeout
+- [CLOUD-1648] - ETL job is not added as dependency for the dataset when attached through extra resource.
+- [CLOUD-1659] - Unable to view datasets listing page with >5k datasets
+- [CLOUD-1665] - Amorphic fails to reload data > 100GB
+- [CLOUD-1699] - Unable to retrieve ETL job details when duplicate datasets added via extra resources API
+- [CLOUD-1707] - Dataset deletion fails after connection deletion
+- [CLOUD-1708] – UI display issue for Forecast Predictors page
+- [CLOUD-1709] - Custom port for SQL server connection
+- [CLOUD-1716] - Restrict S3 bucket & folder ExtraConnectionAttributes
+- [CLOUD-1698] - Last modified date and user are not getting updated when the ETL Job script is changed
+- [CLOUD-1700] - Unable to list more than 100 ETL jobs in the Amorphic homepage
+- [CLOUD-1608] – Morph Mapping failure for Char datatype
+- [CLOUD-1642] - Field splitter node in morph doesn’t work with pipe
+- [CLOUD-1608] - Fix Morph Mapping failures for Char datatype
+- [CLOUD-1641] - Save workflow feature not showing blank/empty error message
+- [CLOUD-1740] - Avoid tag creation on source bucket object in S3 connection bucket policy ingestion
+- [CLOUD-1741] - S3 data ingestion fails where there is space in the source file name
+- [CLOUD-1749] - Task list page times out when there are huge number of tasks
+- [CLOUD-1636] - Amorphic parameter store multiline string issue
+- [CLOUD-1646] - ETL Job libraries order change when metadata no-update is performed.
+- [CLOUD-1734] - Query Engine query stuck in queued state if user has only query permission.
+- [CLOUD-1689] - CMP - Code changes to add tagging to the core stack
+
+### Cross-Account-Role Updates
+-[CLOUD-1763] - Cross Account Role Changes v1.8 - Added EC2 Backup permissions and KMS Service permissions for encrypting Glue Connections
+
+### User Actions (1)
+- [CLOUD-1662] - Keywords are being incorrectly added to the Kinesis consumer dataset.
+
+:::caution User Action required
+This change is only applicable to the new created kinesis consumer datasets.
+:::
+
+- [CLOUD-1659] - Unable to view datasets listing page with >5k datasets
+
+:::caution User Action required
+If in case the user has more than 5000 datasets the datasets listing page will display the latest 5000 datasets. Only this number can be searchable in the App navigator and also displayed in the dataset dropdowns all over the amorphic application.
+:::
+
+- [CLOUD-1740] - Avoid tag creation on source bucket object in S3 connection bucket policy ingestion
+- [CLOUD-1741] S3 data ingestion fails where there is space in the source file name
+
+:::caution User Action required
+User should create a new S3 connection for these changes to work.
+:::
+
+### UI feature deprecation (1)
+- [CLOUD-1754] - Remove *Quick Actions* from Amorphic UI
+
+:::danger Deprecation warning
+As informed in the previous release, *Quick Actions* functionality is deprecated and removed from the Amorphic UI.
+:::
